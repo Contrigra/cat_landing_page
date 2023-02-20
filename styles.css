@@ -56,6 +56,9 @@ nav, .hero-container {
 
 }
 
+/* Moved the picture's focus so we could see better the beautiful face fo a cat
+ and a bit of resizing */
+
 .hero-image {
   height: 400px;
   crop: auto;
@@ -91,7 +94,6 @@ nav, .hero-container {
 }
 
 /* second-container */
-
 
 .second-container h1 {
   text-align: center;
@@ -144,26 +146,37 @@ nav, .hero-container {
 .bottom-container {
   background-color: #3882f6;
   border-radius: 8px;
-  margin: 96px;
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 96px auto;
 
+  padding: 24px 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 128px;
 }
 
 .call-to-action-text {
   margin: 20px;
 }
-.sign-up-button-border {
+
+.call-to-action-big-words {
+  color: #f9faf8;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.call-to-action-small-words {
+  color: #e5e7eb;
+}
+
+.sign-up-border {
   background-color: #3882f6;
   color: #f9faf8;
   padding: 8px 32px;
   border-radius: 8px;
   border-color: #f9faf8;
-
 }
+
 /* footer */
 
 footer {
