@@ -92,28 +92,78 @@ nav, .hero-container {
 
 /* second-container */
 
-.card-container {
-  display: flex;
-  justify-items: center;
-  padding: 32px;
-  align-items: center;
-}
 
 .second-container h1 {
   text-align: center;
   margin: 32px;
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
 .card {
   text-align: center;
-  padding: 64px;
+  max-width: 200px;
 }
+
+.card img {
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 6px;
+}
+
 /* quote-container */
 
 .quote-container {
   background-color: #e5e7eb;
+  padding: 128px 512px;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
+.quote-container .quote-text {
+  text-align: justify;
+}
 
+.quote-author {
+  text-align: end;
+  font-weight: bold;
+
+}
+
+/* Call to action container */
+
+.bottom-container {
+  background-color: #3882f6;
+  border-radius: 8px;
+  margin: 96px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.call-to-action-text {
+  margin: 20px;
+}
+.sign-up-button-border {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border-color: #f9faf8;
+
+}
 /* footer */
 
 footer {
